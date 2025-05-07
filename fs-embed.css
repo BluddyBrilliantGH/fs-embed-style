@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Sentient';
+  src: url('https://yourcdn.com/fonts/Sentient-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('https://yourcdn.com/fonts/GeneralSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.list-service-name,
+.service-title {
+  font-family: 'Sentient', serif !important;
+  color: #720813 !important;
+}
+
+.list-service-description,
+.service-body {
+  font-family: 'GeneralSans', sans-serif !important;
+  color: #720813 !important;
+}
